@@ -1,2 +1,0 @@
-# quer_post
-wp 
