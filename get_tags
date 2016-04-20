@@ -6,3 +6,12 @@ if ($tags) {
             }
 }
 ?>
+
+<?php
+$tags = wp_get_post_tags($post -> ID);
+if ($tags) {
+            foreach($tags as $tag) {
+                        echo '<p>' . $title . <a href="' . get_term_link ($tag, 'post_tag' ) . '" title="'  . sprin
+            }
+}
+?>
