@@ -5,3 +5,4 @@ if ($tags) {
                     echo '<p>Tag : <a href="'" . get_tag_link ($tag->term_id ) . '" tittle= "' . sprintf ( _( "View
             }
 }
+?>
